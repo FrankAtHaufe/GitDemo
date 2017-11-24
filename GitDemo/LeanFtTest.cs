@@ -1,0 +1,45 @@
+﻿using System;
+using NUnit.Framework;
+using HP.LFT.SDK;
+using HP.LFT.Verifications;
+using HP.LFT.SDK.WinForms;
+using System.Drawing;
+using System.Windows.Forms;
+
+
+namespace GitDemo
+{
+    [TestFixture]
+    public class LeanFtTest : UnitTestClassBase
+    {
+        [OneTimeSetUp]
+        public void TestFixtureSetUp()
+        {
+            // Setup once per fixture
+        }
+
+        [SetUp]
+        public void SetUp()
+        {
+            // Before each test
+        }
+
+        [Test]
+        public void Test()
+        {
+            MessageBox.Show("Unit Test is running...");
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            // Clean up after each test
+        }
+
+        [OneTimeTearDown]
+        public void TestFixtureTearDown()
+        {
+            // Clean up once per fixture
+        }
+    }
+}
