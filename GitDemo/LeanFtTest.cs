@@ -27,7 +27,7 @@ namespace GitDemo
         [Test]
         public void Test()
         {
-            MessageBox.Show("Yeppee, Unit Test is running fine...");
+            //MessageBox.Show("Yeppee, Unit Test is running fine...");
         }
 
         [TearDown]
