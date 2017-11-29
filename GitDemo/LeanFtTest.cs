@@ -5,7 +5,7 @@ using HP.LFT.Verifications;
 using HP.LFT.SDK.WinForms;
 using System.Drawing;
 using System.Windows.Forms;
-
+using LogeAppModel;
 
 namespace GitDemo
 {
@@ -28,6 +28,9 @@ namespace GitDemo
         public void Test()
         {
             //MessageBox.Show("Yeppee, Unit Test is running fine...");
+            var x = new LogeAppModel.ClassStandardDialog();
+
+
         }
 
         [TearDown]
