@@ -6,6 +6,7 @@ using HP.LFT.SDK.WinForms;
 using System.Drawing;
 using System.Windows.Forms;
 using LogeAppModel;
+using System.Configuration;
 
 namespace GitDemo
 {
@@ -21,7 +22,7 @@ namespace GitDemo
         [SetUp]
         public void SetUp()
         {
-            // Before each test
+             // Before each test
         }
 
         [Test]
