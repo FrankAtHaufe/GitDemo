@@ -29,7 +29,7 @@ namespace GitDemo
         {
             //MessageBox.Show("Yeppee, Unit Test is running fine...");
             //var x = new LogeAppModel.ClassStandardDialog();
-
+            //supi
 
         }
 
